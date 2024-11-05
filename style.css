@@ -1,2 +1,107 @@
-git add .
-git commit -m "initial creation"
+
+.page1{
+    padding-bottom: 80px;
+}
+.head{
+    background-image: url('source/headerimg.jpg');
+    background-size: cover; /* Makes the background cover the entire header */
+    background-position: center; /* Centers the background image */
+    height: 200px; /* Adjust height as needed */
+    color: white; /* Adjust text color if needed */
+    display: flex; /* Centers content vertically */
+    align-items: center; /* Centers content vertically */
+}
+.ora{
+    display: flex;
+    align-items: center;
+}
+.carro{
+    display: flex;
+    align-items: center;
+}
+.beet{
+    display: flex;
+    align-items: center;
+}
+.page2{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.ora p{
+    font-size: 20px;
+}
+.page3{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #ffc131;
+}
+.carro p{
+    font-size: 20px;
+}
+.page4{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.beet p{
+    font-size: 20px;
+}
+.page5{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #ffc131;
+}
+.page6{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.page7{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #ffc131;
+}
+.jam{
+    display: flex;
+}
+.jam p{
+    font-size: 20px;
+}
+.footer{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.Review{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.page5 p{
+    font-size: 20px;
+}
+.carot img{
+    width: 100%;
+    border: 2px solid black;
+    border-width: 2px;
+    border-radius: 20px;    
+}
+.ora img{
+    width: 90%;
+    margin-right: 50px;
+    border: 2px solid #ffc131;
+    border-width: 2px;
+    border-radius: 20px;    
+}
+.beetroot img{
+    width: 50%;
+    border: 2px solid #ffc131;
+    border-width: 2px;
+    border-radius: 20px;    
+} 
+.last {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.jam img{
+    border: 2px solid black;
+    border-width: 2px;
+    border-radius: 20px;  
+}
